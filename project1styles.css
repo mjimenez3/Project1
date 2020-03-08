@@ -25,6 +25,7 @@
   .pic2 {
     grid-area: "pic2";
     border: solid;
+  }
   .pic3 {
     grid-area: pic3;
     border: solid;
