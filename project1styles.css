@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-tmeplate-rows: 500px 1fr 3fr 1fr;
+    grid-template-rows: 100px 1fr 3fr 1fr;
     grid-template-areas:
       "header header header header"
       "pic1 pic2 pic3 pic4"
@@ -25,34 +25,6 @@
   .pic2 {
     grid-area: "pic2";
     border: solid;
-  }.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-tmeplate-rows: 500px 1fr 3fr 1fr;
-    grid-template-areas:
-      "header header header header"
-      "pic1 pic2 pic3 pic4"
-      "info1 info2 info3 info4"
-      "footer footer footer footer";
-    border: solid;
-    border-color: red;
-  }
-  .header {
-    grid-area: header;
-    border: solid;
-  }
-  .footer {
-    grid-area: footer;
-    border: solid;
-  }
-  .pic1 {
-    grid-area: pic1;
-    border: solid;
-  }
-  .pic2 {
-    grid-area: pic2;
-    border: solid;
-  }
   .pic3 {
     grid-area: pic3;
     border: solid;
