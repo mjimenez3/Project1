@@ -1,0 +1,83 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 3fr 1fr;
+    grid-template-areas:
+      "header header header header"
+      "pic1 pic2 pic3 pic4"
+      "info1 info2 info3 info4"
+      "footer footer footer footer";
+    border: solid;
+    border-color: red;
+  }
+  .header {
+    grid-area: "header";
+    border: solid;
+  }
+  .footer {
+    grid-area: "footer";
+    border: solid;
+  }
+  .pic1 {
+    grid-area: "pic1";
+    border: solid;
+  }
+  .pic2 {
+    grid-area: "pic2";
+    border: solid;
+  }
+  .pic3 {
+    grid-area: pic3;
+    border: solid;
+  }
+  .pic4 {
+    grid-area: pic4;
+    border: solid;
+  }
+  .info1 {
+    grid-area: info1;
+    border: solid;
+    text-align: center;
+  }
+  .old {
+    width: 200px;
+    float: left;
+  }
+  .info2 {
+    grid-area: info2;
+    border: solid;
+  }
+  .info3 {
+    grid-area: info3;
+    border: solid;
+  }
+  .info4 {
+    grid-area: info4;
+    border: solid;
+  }
+  
+  .pic3 {
+    grid-area: "pic3";
+    border: solid;
+  }
+  .pic4 {
+    grid-area: "pic4";
+    border: solid;
+  }
+  .info1 {
+    grid-area: "info1";
+    border: solid;
+  }
+  .info2 {
+    grid-area: "info2";
+    border: solid;
+  }
+  .info3 {
+    grid-area: "info3";
+    border: solid;
+  }
+  .info4 {
+    grid-area: "info4";
+    border: solid;
+  }
+  
